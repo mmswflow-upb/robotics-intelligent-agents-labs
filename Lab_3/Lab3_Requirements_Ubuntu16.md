@@ -120,25 +120,6 @@ ls ~/epuck_vrep_ros/epuck_vrep_ros.lua
 
 ## PART 4 - INSTALL THE SIMULATOR
 
-### Option A - preferred if your teacher/classmate has old V-REP
-
-- get a V-REP Linux archive
-- extract it in Downloads
-- move it to `/opt/vrep`
-- create a `vrep` command
-
-Example:
-
-```bash
-cd ~/Downloads
-tar -xzf V-REP*.tar.gz
-sudo mv V-REP* /opt/vrep
-sudo ln -sf /opt/vrep/vrep.sh /usr/local/bin/vrep
-sudo chmod +x /opt/vrep/vrep.sh
-```
-
-### Option B - official fallback
-
 Download CoppeliaSim Edu for Ubuntu 16.04 from Coppelia previous versions.
 Save it in `~/Downloads`, then run:
 

@@ -1,0 +1,148 @@
+IA LAB 0 — SETUP AND STUDY GUIDE
+
+Important:
+Lab 0 is a theory/introduction lab about Agent-Oriented Programming (AOP)
+and the role of NetLogo as a multi-agent system environment.
+The PDF does not require a specific Ubuntu version, ROS version, or simulator setup.
+It mainly introduces concepts you should understand before later labs.
+
+==================================================
+WHAT THE PDF IS ABOUT
+==================================================
+
+According to the Lab 0 PDF, the main ideas are:
+- automation of complex processes
+- agent-oriented programming
+- intelligent agents
+- agent communication
+- NetLogo as a multi-agent system modeling environment
+
+The PDF explains that AOP:
+- is a software paradigm combining ideas from distributed systems,
+  object-oriented programming, and artificial intelligence
+- models software as a collection of agents
+- lets agents interact to achieve goals
+- treats agents as more than simple objects, because they can have beliefs,
+  capabilities, obligations, and the ability to choose
+
+==================================================
+WHAT YOU NEED INSTALLED
+==================================================
+
+For Lab 0, you do NOT need:
+- ROS
+- RViz
+- turtlesim
+- CoppeliaSim
+
+Recommended:
+- a PDF reader
+- NetLogo installed, because the PDF mentions it and Lab 1 uses it directly
+
+==================================================
+INSTALL NETLOGO
+==================================================
+
+Option A - Ubuntu
+
+1) Open a terminal
+2) Download NetLogo from the official website in your browser
+3) Extract the archive
+4) Move it somewhere easy to use, for example inside your home folder
+
+Example:
+
+cd ~
+mkdir -p tools
+cd tools
+# after downloading the archive manually in your browser:
+tar -xf ~/Downloads/NetLogo-*.tgz
+ls
+
+You should get a folder named something like:
+NetLogo 6.x.x
+
+To start NetLogo later:
+
+cd ~/tools/NetLogo*/
+./NetLogo
+
+Option B - Windows
+
+1) Download NetLogo from the official website
+2) Install it normally
+3) Start NetLogo from the Start menu
+
+==================================================
+WHAT TO STUDY FROM LAB 0
+==================================================
+
+1) Why agent-oriented programming appeared
+Understand that systems became:
+- more numerous
+- more heterogeneous
+- harder to integrate
+
+So communication protocols and agent-based approaches became useful.
+
+2) What an agent is
+An agent is not just an object.
+In this course context, an agent can:
+- communicate
+- choose actions
+- pursue goals
+- have internal state such as beliefs or capabilities
+
+3) The two big dimensions mentioned in the PDF
+- agent-oriented programming languages
+- agent-oriented communication
+
+4) Advantages of AOP
+Know that agents can:
+- be autonomous
+- make decisions
+- communicate requests, services, intentions, beliefs, and goals
+
+5) Shoham’s three required elements
+Be able to explain:
+- a formal language for agent states and messages
+- a programming language with similar semantics
+- a way to convert neutral applications into agents
+
+6) NetLogo
+Know that NetLogo is presented as:
+- a multi-agent system modeling environment
+- based on the AOP paradigm
+- offering communication-related support and access to agent resources
+
+==================================================
+HOW TO PREPARE FOR CLASS OR EVALUATION
+==================================================
+
+Read the PDF once for overview, then once again for terms.
+
+Make sure you can answer questions like:
+- What is agent-oriented programming?
+- How is an agent different from an object?
+- Why do communication protocols matter between systems?
+- What are the advantages of AOP?
+- What are the three elements needed for AOP according to Shoham?
+- Why is NetLogo relevant in this course?
+
+==================================================
+SHORT CHECKLIST
+==================================================
+
+- PDF opened and read
+- NetLogo installed
+- Key AOP terms understood
+- NetLogo launches successfully
+
+==================================================
+WHAT TO TELL THE TEACHER IF ASKED
+==================================================
+
+- Lab 0 is theoretical
+- it introduces AOP and intelligent agents
+- NetLogo is the environment used later for multi-agent modeling
+- no ROS or simulator is required for this lab
