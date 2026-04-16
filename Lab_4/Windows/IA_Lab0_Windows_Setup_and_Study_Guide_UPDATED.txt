@@ -1,0 +1,56 @@
+IA LAB 0 — WINDOWS SETUP AND STUDY GUIDE
+
+Important:
+Lab 0 is a theory/introduction lab about Agent-Oriented Programming (AOP)
+and NetLogo.
+The PDF does NOT require a specific operating system.
+For Windows, the practical setup you need is a PDF reader and NetLogo.
+
+==================================================
+WHAT THE PDF IS ABOUT
+==================================================
+
+According to the Lab 0 PDF, the main topics are:
+- automation of complex processes
+- agent-oriented programming
+- intelligent agents
+- agent communication
+- NetLogo as a multi-agent system modeling environment
+
+The PDF explains that AOP:
+- combines ideas from distributed systems, object-oriented programming,
+  and artificial intelligence
+- models software as a collection of agents
+- lets agents interact to achieve goals
+- treats agents as more than simple objects, because they can have beliefs,
+  capabilities, obligations, and the ability to choose
+
+==================================================
+WHAT YOU NEED ON WINDOWS
+==================================================
+
+Required:
+- a PDF reader
+- NetLogo installed
+
+You do NOT need:
+- Ubuntu
+- ROS
+- RViz
+- turtlesim
+- CoppeliaSim
+
+==================================================
+INSTALL NETLOGO ON WINDOWS
+==================================================
+
+1) Open your browser
+2) Download NetLogo from the official NetLogo website
+3) Run the installer, or extract the archive if the download is portable
+4) Install it in the default location, or place it in a simple folder such as:
+   C:\Tools\NetLogo
+5) Start NetLogo
+
+Expected:
+- NetLogo opens successfully
+- you can see the Interface, Info, and Code tabs
