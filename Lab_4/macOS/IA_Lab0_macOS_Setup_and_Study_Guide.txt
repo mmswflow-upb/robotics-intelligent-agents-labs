@@ -1,0 +1,19 @@
+IA LAB 0 — MACOS SETUP AND STUDY GUIDE
+
+Important:
+Lab 0 is theoretical. On macOS, you mainly need a PDF reader and NetLogo.
+
+==================================================
+INSTALL NETLOGO ON MACOS
+==================================================
+
+1) Download NetLogo from the official website
+2) Open the .dmg
+3) Drag NetLogo into Applications
+4) Launch NetLogo
+5) If macOS blocks it, go to System Settings -> Privacy & Security ->
+   Open Anyway
+
+Expected:
+- NetLogo opens
+- you can see Interface, Info, and Code

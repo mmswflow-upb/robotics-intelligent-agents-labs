@@ -1,0 +1,26 @@
+IA LAB 0 — UBUNTU SETUP AND STUDY GUIDE
+
+Important:
+Lab 0 is theoretical. On Ubuntu, you mainly need a PDF reader and NetLogo.
+
+==================================================
+INSTALL NETLOGO ON UBUNTU
+==================================================
+
+1) Download NetLogo from the official website in your browser
+2) Open a terminal
+3) Extract it somewhere in your home folder
+
+Example:
+cd ~
+mkdir -p tools
+cd tools
+tar -xf ~/Downloads/NetLogo-*.tgz
+
+4) Start NetLogo
+cd ~/tools/NetLogo*/
+./NetLogo
+
+Expected:
+- NetLogo opens
+- you can see Interface, Info, and Code
